@@ -1,2 +1,3 @@
-# Get-it-done-
-To do list demo
+# Get It Done
+
+An app that does...
