@@ -34,13 +34,14 @@ h1{
     grid-column: 1;
     grid-row: 2;
     text-align: center;
+    text-transform: capitalize;
 
 }
 .completed{
     grid-column: 2;
     grid-row: 2;
     text-align: center;
-
+    text-transform: capitalize;
 
 }
 
@@ -48,4 +49,10 @@ h1{
     grid-column: 3;
     grid-row: 2;
     text-align: center;
+    text-transform: capitalize;
 }
+
+.complete {
+
+    text-decoration: line-through;
+  }
