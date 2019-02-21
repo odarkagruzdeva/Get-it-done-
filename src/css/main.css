@@ -18,3 +18,8 @@ h1{
     grid-column: 2;
 
 }
+
+.complete {
+
+  text-decoration: line-through;
+}
