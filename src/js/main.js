@@ -33,6 +33,9 @@ toDoList.forEach(itm => {
   if (itm.comState == true)
     oneListItem.classList.add (`complete`);
 
+  if (itm.comState == false)
+    oneListItem.classList.add (`notDone`);
+
     document.getElementById('toDoList').appendChild(oneListItem);
 });
 

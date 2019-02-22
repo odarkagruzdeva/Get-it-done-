@@ -1,8 +1,7 @@
 body {
     background-color: #e3d7ea ;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0em;
-    padding: 0em;
+
 
 
 }
@@ -34,47 +33,69 @@ h1{
 }
 
 .all{
+    padding: 0.5em;
     grid-column: 1;
     grid-row: 2;
     text-align: center;
     text-transform: capitalize;
+    font-size: 0.8em;
+    text-decoration: underline;
 
 }
 .completed{
+    padding: 0.5em;
     grid-column: 2;
     grid-row: 2;
     text-align: center;
     text-transform: capitalize;
+    font-size: 0.8em;
 
 }
 
 .to_be_completed{
+    padding: 0.5em;
     grid-column: 3;
     grid-row: 2;
     text-align: center;
     text-transform: capitalize;
+    font-size: 0.8em;
 }
 
 .complete {
-
+    font-size: 0.8em;
     background-color: #7060AA; 
+    padding: 1em
     
-  }
+}
 
-  .list_style {
+.notDone{
+    font-size: 0.8em;
+    background-color: #BEEDDC;
+    padding: 1em;
+
+}
+
+.list_style {
     list-style: none; 
-    padding-left: 0em;
     padding: 0em
        
-  }
+}
 
-  .list_section {
-      padding-left: 0em;
-      padding-left: 0em;
-      margin-top: 2em;
+.list_section {
+      margin-top: 1em;
      
-  }
-  .ListItem {
-    background-color: #C0E2D6;
-    padding-left: 0em;
-  }
+}
+
+.img_position {
+    text-align: right;
+
+}
+.img{
+    width: 70px;
+    
+}
+/* .ListItem {
+    margin-right: em;
+    padding: 1em;
+    background-color: grey;
+} */
